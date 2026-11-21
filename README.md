@@ -15,4 +15,4 @@ cd <folder> && npx e2e run
 | `missing-upload` | `setInputFiles('fixtures/avatar.png')` with no such file is `ENGINE_FAILURE: ENOENT ...`, exit 3 | `INVALID_ARGUMENT`, exit 1 |
 | `selector-typo` | `browser.locator('button[type="submit"').tap()` is `ENGINE_FAILURE: locate failed: ...`, exit 3 | a test error (`INVALID_LOCATOR`), exit 1 |
 
-versions: e2e 0.24.0, @e2e-dev/web 0.16.1, node 24
+versions: e2e 0.24.0, @e2e-dev/web 0.16.1, node 26.3.0
