@@ -4,6 +4,7 @@
   "type": "module",
   "devDependencies": {
     "@e2e-dev/web": "0.16.1",
+    "ai": "^7.0.180",
     "e2e": "0.24.0"
   }
 }
